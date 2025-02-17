@@ -3,16 +3,26 @@
     margin: 0;
 }
 
-.main-menu .container {
+.main-menu{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin: 20px auto;
     background-color: #282828;
-    padding: 15px;
+    padding: 15px 30px;
     border-radius: 5px;
     border-bottom: 1px solid var(--main-color)
+}
+
+.main-menu div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-menu h3 {
+    margin: 0;
 }
 
 .main-menu ul {
